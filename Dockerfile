@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
-COPY target/clinic-2.1.3.RELEASE.jar /app/
+COPY target/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar /app/
 
 EXPOSE 8080
 
-CMD java -jar /app/clinic-2.1.3.RELEASE.jar
+CMD java -jar /app/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar
